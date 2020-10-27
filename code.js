@@ -1,3 +1,6 @@
+function lateFees()
+{
+
 // number of books being checked out
 
 var numberBooks = prompt("How many books? ");
@@ -38,3 +41,4 @@ var dvdFees = (numberDVDs *(returning - rentalDuration)) * 0.50;
 var totalFees = booksFees + dvdFees
 
 alert (`Your total is ${totalFees}`);
+}
