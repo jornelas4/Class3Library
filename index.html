@@ -3,13 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Waukesha Public Library</title>
+    <style>.output { display: none;}</style>
+
 </head>
 
 <body>
 
 <h1>Waukesha Public Library</h1>
 
-<button onclick="lateFees()">Rental</button>
+<br>
+
+<label for="books">How many books? </label>
+<input type="number" name="books" id="books">
+
+<br>
+
+<label for="DVDs">How many DVDs? </label>
+<input type="number" name="DVDs" id="DVDs">
+
+<br>
+
+<label for="rentalDays">How many days will your rental be? </label>
+<input type="number" name="rentalDays" id="rentalDays">
+
+<br>
+
+<label for="returnDays">How many did you take to return? </label>
+<input type="number" name="returnDays" id="returnDays">
+
+<br>
+
+<button type="button" class="btn btn-success btn-lg">Rental</button>
+
+<p class="output">Total late fee owed is $<span
+id="result"></span>. Please pay today to avoid additional fees.
+</p>
+
+<script src="http://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
 
 <script src="code.js"></script>
 

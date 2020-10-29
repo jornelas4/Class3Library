@@ -1,44 +1,51 @@
-function lateFees()
-{
-
-// number of books being checked out
-
-var numberBooks = prompt("How many books? ");
+$(document).ready(
+    function () {
+    // event handlers
+    $("button").click(lateFees);
 
 
-//converting from text to number
+    //Other functions
+    function lateFees(){
 
-numberBooks = parseFloat(numberBooks);
+        // number of books being checked out
 
+        var numberBooks = parseFloat($("#books").val());
 
 //number of dvds being checked out
 
-var numberDVDs= prompt("How many DVDs? ");
+        var numberDVDs = parseFloat($("#DVDs").val());
 
-//convert from text to number
-
-numberDVDs = parseFloat(numberDVDs);
 
 // Default rental duration
 
-var rentalDuration = prompt("How many days is your rental? ");
+        var rentalDuration = parseFloat($("#rentalDays").val());
 
-rentalDuration = parseFloat(rentalDuration)
 
 //timeframe withouht fee
 
-var returning = prompt("How many days to return")
+        var returning = parseFloat($("#returnDays").val());
 
 //additional days books kept * items
 
-var booksFees = (numberBooks * (returning - rentalDuration)) * 0.25;
+        var booksFees = (numberBooks * (returning - rentalDuration)) * 0.25;
 
 // additional days dvds kept * items
 
 
-var dvdFees = (numberDVDs *(returning - rentalDuration)) * 0.50;
+        var dvdFees = (numberDVDs * (returning - rentalDuration)) * 0.50;
 
-var totalFees = booksFees + dvdFees
+        var totalFees = booksFees + dvdFees
 
-alert (`Your total is ${totalFees}`);
-}
+
+        // Results in the span tags
+
+        $("#result").text(totalFees.toFixed(2));
+        $("p.output").show();
+
+
+    }
+
+
+
+
+});
