@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a9bbb39-e555-441b-9d62-a81cc1018a71" name="Default Changelist" comment="Fixed Error">
+    <list default="true" id="9a9bbb39-e555-441b-9d62-a81cc1018a71" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +43,8 @@
       <updated>1603761847529</updated>
       <workItem from="1603761848560" duration="368000" />
       <workItem from="1603767444968" duration="1935000" />
-      <workItem from="1603936080184" duration="6552000" />
+      <workItem from="1603936080184" duration="6674000" />
+      <workItem from="1603946570460" duration="653000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Error">
       <created>1603771681971</created>
@@ -61,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603772111128</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit">
+      <created>1603942732544</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603942732544</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,28 +75,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed Error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Error" />
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="273" y="70" key="CommitChangelistDialog2" timestamp="1603936673879">
+    <state x="273" y="70" key="CommitChangelistDialog2" timestamp="1603942731981">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="273" y="70" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1603936673879" />
-    <state x="526" y="400" key="Github.ShareDialog" timestamp="1603767489598">
+    <state x="273" y="70" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1603942731981" />
+    <state x="526" y="400" key="Github.ShareDialog" timestamp="1603946589703">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="526" y="400" key="Github.ShareDialog/0.0.1280.984@0.0.1280.984" timestamp="1603767489598" />
+    <state x="526" y="400" key="Github.ShareDialog/0.0.1280.984@0.0.1280.984" timestamp="1603946589703" />
     <state x="452" y="207" key="Github.UntrackedFilesDialog" timestamp="1603767502052">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="452" y="207" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1603767502052" />
-    <state x="240" y="235" key="Vcs.Push.Dialog.v2" timestamp="1603772117203">
+    <state x="240" y="235" key="Vcs.Push.Dialog.v2" timestamp="1603942757754">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="240" y="235" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1603772117203" />
-    <state x="465" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603942711990">
+    <state x="240" y="235" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1603942757754" />
+    <state x="465" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603947693557">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="465" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.984@0.0.1280.984" timestamp="1603942711990" />
+    <state x="465" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.984@0.0.1280.984" timestamp="1603947693557" />
   </component>
 </project>
